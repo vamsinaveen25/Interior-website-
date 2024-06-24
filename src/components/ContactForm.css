@@ -1,0 +1,79 @@
+/* ContactForm.css */
+.form-container {
+  max-width: 320px;
+  height: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-left: 50rem;
+  border: 5px solid #f0dca9;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="tel"],
+.form-group input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+}
+
+button:hover {
+  background-color: #e78217;
+}
+
+button[type="button"]:hover {
+  background-color: #5a6268;
+}
+
+.terms {
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.terms a {
+  color: #3883d2;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}

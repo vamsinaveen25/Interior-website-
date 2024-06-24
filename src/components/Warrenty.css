@@ -1,0 +1,39 @@
+/* Warrenty.css */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 3rem; */
+    /* margin-top: -5rem; */
+    padding: 40px;
+  
+  }
+  
+  .warrenty-container {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+  }
+  
+  .warrenty-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .warrenty-item img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .warrenty-item p {
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  
+  
+  

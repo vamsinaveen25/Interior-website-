@@ -1,0 +1,39 @@
+.partners-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+    flex-direction: column;
+  }
+  
+  .marquee {
+    width: 100%; /* Ensure full width for marquee */
+    overflow: hidden; /* Hide overflow to create marquee effect */
+    position: relative;
+  }
+  
+  .marquee-image {
+    position: absolute;
+    right: 100%; /* Start outside the view on the right */
+    animation: marqueeAnimation 1s linear infinite; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes marqueeAnimation {
+    0% {
+      right: 100%; /* Start position */
+    }
+    100% {
+      right: -100%; /* End position (move fully left) */
+    }
+  }
+  
+  .name {
+    display: flex; 
+    flex-direction: column;
+    /* Adjust margin between image and text */
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  /* Additional styles for h1 and h2 if needed */
+  

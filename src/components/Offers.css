@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+    margin: 0 10px;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 20px;
+  }
+  
+  .card-header img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .card-body {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .card-body li {
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card-arrow {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .card-arrow svg {
+    width: 30px;
+    height: 30px;
+    fill: #007bff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cards {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .card {
+      margin: 10px 0;
+    }
+  }
