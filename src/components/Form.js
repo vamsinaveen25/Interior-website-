@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import './ContactForm.css';
 
 function Form() {
+
+
+  
   const [step, setStep] = useState(1);
   const [name, setName] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
@@ -31,6 +34,8 @@ function Form() {
   };
 
   return (
+    
+    
     <div className="form-container">
       <h2>Designs for Every Budget</h2>
       <form onSubmit={step === 2 ? handleSubmit : handleNextStep}>
@@ -100,6 +105,7 @@ function Form() {
         <a href="#">privacy policy</a> &{' '}
         <a href="#">terms and conditions</a>
       </p>
+      
     </div>
   );
 }

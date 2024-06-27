@@ -7,22 +7,27 @@
   
   .marquee {
     width: 100%; /* Ensure full width for marquee */
-    overflow: hidden; /* Hide overflow to create marquee effect */
+     /* Hide overflow to create marquee effect */
     position: relative;
+  }
+  .marquee img {
+    height: 150px;
+    margin: 50px;
+    
   }
   
   .marquee-image {
     position: absolute;
-    right: 100%; /* Start outside the view on the right */
-    animation: marqueeAnimation 1s linear infinite; /* Adjust animation duration as needed */
+    right: 100%; 
+    animation: marqueeAnimation 1s linear infinite; 
   }
   
   @keyframes marqueeAnimation {
     0% {
-      right: 100%; /* Start position */
+      right: 100%; 
     }
     100% {
-      right: -100%; /* End position (move fully left) */
+      right: -100%; 
     }
   }
   

@@ -5,25 +5,15 @@ body {
 }
 
 .navbar {
-    position: sticky;
-    /* top: 1px; */
+    position: fixed;
+    top: 0;
     width: 100%;
-    /* background: linear-gradient(90deg, #ff7e5f, #feb47b); */
     color: rgb(39, 37, 37);
     padding: 1rem 0;
-    transition: background 0.3s;
+    
     z-index: 1000;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    /* animation: gradientAnimation 10s ease infinite; */
+    
 }
-/* 
-@keyframes gradientAnimation {
-    0% { background: linear-gradient(90deg, #ff7e5f, #feb47b); }
-    25% { background: linear-gradient(90deg, #ff7e5f, #ff9a9e); }
-    50% { background: linear-gradient(90deg, #ff7e5f, #fad0c4); }
-    75% { background: linear-gradient(90deg, #ff7e5f, #fbc2eb); }
-    100% { background: linear-gradient(90deg, #ff7e5f, #feb47b); }
-} */
 
 .nav-menu {
     list-style: none;
@@ -69,36 +59,36 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
     color: #333;
 }
 
-/* #home { background-color: #ff9a9e; } */
-#home {background-image: url(https://images.livspace-cdn.com/plain/https://d3gq2merok8n5r.cloudfront.net/img/landingpages/full-home-interiors/Edge_New/new-folder-1657193933-8Jkh5/1440x730-1657194139-erPsT.jpg );background-size:cover;}
-
-/* #services { background-color: #fbc2eb; } */
-/* #contact { background-color: #a18cd1; } */
-
-.free{
-    
- position:relative;
-   margin-left: -11rem;
-   margin-top: 1rem;
-   border-radius: 2rem;
-   background-color:#f44336 ;
-   
+#home {
+    background-image: url(https://images.livspace-cdn.com/plain/https://d3gq2merok8n5r.cloudfront.net/img/landingpages/full-home-interiors/Edge_New/new-folder-1657193933-8Jkh5/1440x730-1657194139-erPsT.jpg);
+    background-size: cover;
+     background-attachment: fixed;
+     height: 40em;
 }
-.free:hover {
-    background-color: #e78217;
-  }
 
-#services{
+#services {
     margin-top: 50px;
 }
 
-#contact{
+#contact {
     margin-top: 80px;
 }
-#partner{
+
+#partner {
     margin-top: 80px;
+}
+
+.free {
+    position: relative;
+    margin-left: 80rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    background-color: #f44336;
+}
+
+.free:hover {
+    background-color: #e78217;
 }
